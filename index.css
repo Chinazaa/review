@@ -1,0 +1,88 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-image: url("bg-pattern-top-desktop.svg"), url("bg-pattern-bottom-desktop.svg");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+}
+h1{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+}
+.sub-heading{
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    font-weight: 500;
+}
+.reviews{
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.header{
+   margin-top: 50px;
+}
+img{
+    padding-right: 5px;
+}
+.comments{
+    background-color:  hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin: 1px 15px 15px 15px;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+.comment-text{
+    margin: 15px;
+}
+.comment-one{
+    margin-bottom: 50px;
+}
+.middle-comment{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.comment-three{
+    margin-top: 40px;
+}
+span{
+    display: block;
+    margin-top: 0;
+    padding-left: 15%;
+    color: hsl(333, 80%, 67%);
+}
+
+@media screen and (max-width:1000px) {
+    html{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 80%;
+        margin: 10%;
+        padding: 0;
+    }
+    span{
+     padding-left: 3rem;
+    }
+    .comments{
+        overflow: hidden;
+
+    }
+    .comment-one{
+        margin-bottom: unset;
+    }
+    .middle-comment{
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+    .comment-three{
+        margin-top: unset;
+    }
+}
